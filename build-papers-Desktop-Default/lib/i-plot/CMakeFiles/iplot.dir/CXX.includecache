@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/jorge/papers/lib/i-plot/IPlot.cpp
+IPlot.h
+/home/pi/jorge/papers/lib/i-plot/IPlot.h
+
+/home/pi/jorge/papers/lib/i-plot/IPlot.h
+vector
+-
+stdio.h
+-
+fstream
+-
+algorithm
+-
+iostream
+-
+sstream
+-
+windows.h
+-
+

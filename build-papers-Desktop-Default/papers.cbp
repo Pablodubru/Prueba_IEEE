@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="papers"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\CiA402Device\;CMake Files\lib\sensor-integration\;CMake Files\lib\fcontrol\;CMake Files\lib\fcontrol\files\;CMake Files\lib\i-plot\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\;CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\;CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5SerialPort\;CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\eigen3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_sensor">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/test_sensor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 test_sensor"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_sensor/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/test_sensor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 test_sensor/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sinwaveplot">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/sinwaveplot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 sinwaveplot"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sinwaveplot/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/sinwaveplot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 sinwaveplot/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensor-response">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/sensor-response" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 sensor-response"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensor-response/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/sensor-response" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 sensor-response/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="motor_check">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/motor_check" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 motor_check"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="motor_check/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/motor_check" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 motor_check/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ol-pos-360">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/ol-pos-360" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 ol-pos-360"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ol-pos-360/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/ol-pos-360" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 ol-pos-360/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clInc20degstep">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/clInc20degstep" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clInc20degstep"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clInc20degstep/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/clInc20degstep" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clInc20degstep/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kinematics">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/libkinematics.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 kinematics"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kinematics/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/libkinematics.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 kinematics/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="frontierstest">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/frontierstest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 frontierstest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="frontierstest/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/frontierstest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 frontierstest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="move-motor">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/move-motor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 move-motor"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="move-motor/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/move-motor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 move-motor/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iros2020-identification">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/iros2020-identification" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 iros2020-identification"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iros2020-identification/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/iros2020-identification" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 iros2020-identification/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="frontierstest_id">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/frontierstest_id" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 frontierstest_id"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="frontierstest_id/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/frontierstest_id" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 frontierstest_id/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_sensor_new">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/test_sensor_new" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 test_sensor_new"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_sensor_new/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/test_sensor_new" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 test_sensor_new/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="newpapers">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/newpapers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 newpapers"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="newpapers/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/newpapers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 newpapers/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ieeeaccess-adaptive">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/ieeeaccess-adaptive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 ieeeaccess-adaptive"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ieeeaccess-adaptive/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/ieeeaccess-adaptive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/pi/jorge/papers/kinematics"/>
+					<Add directory="/home/pi/jorge/papers/lib/CiA402Device"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/i-plot"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 ieeeaccess-adaptive/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CiA402Device">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/lib/CiA402Device/libCiA402Device.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default/lib/CiA402Device"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHICO_LE"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/CiA402Device/Makefile&quot;  VERBOSE=1 CiA402Device"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/CiA402Device/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/CiA402Device/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/CiA402Device/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CiA402Device/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/lib/CiA402Device/libCiA402Device.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default/lib/CiA402Device"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHICO_LE"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/CiA402Device/Makefile&quot;  VERBOSE=1 CiA402Device/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/CiA402Device/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/CiA402Device/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/CiA402Device/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fcontrol">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/lib/fcontrol/libfcontrol.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default/lib/fcontrol"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/fcontrol/Makefile&quot;  VERBOSE=1 fcontrol"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/fcontrol/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/fcontrol/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/fcontrol/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fcontrol/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/lib/fcontrol/libfcontrol.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default/lib/fcontrol"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/pi/jorge/papers/lib/fcontrol"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/fcontrol/Makefile&quot;  VERBOSE=1 fcontrol/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/fcontrol/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/fcontrol/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/fcontrol/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iplot">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/lib/i-plot/libiplot.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default/lib/i-plot"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/i-plot/Makefile&quot;  VERBOSE=1 iplot"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/i-plot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/i-plot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/i-plot/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iplot/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/lib/i-plot/libiplot.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default/lib/i-plot"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/i-plot/Makefile&quot;  VERBOSE=1 iplot/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/i-plot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/i-plot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/i-plot/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SensorIntegration">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/lib/sensor-integration/libSensorIntegration.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default/lib/sensor-integration"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/sensor-integration/Makefile&quot;  VERBOSE=1 SensorIntegration"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/sensor-integration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/sensor-integration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/sensor-integration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SensorIntegration/fast">
+				<Option output="/home/pi/jorge/build-papers-Desktop-Default/lib/sensor-integration/libSensorIntegration.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/jorge/build-papers-Desktop-Default/lib/sensor-integration"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add directory="/home/pi/jorge/papers/lib/sensor-integration"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtCore"/>
+					<Add directory="/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtSerialPort"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtWidgets"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/8/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/sensor-integration/Makefile&quot;  VERBOSE=1 SensorIntegration/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/sensor-integration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/sensor-integration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/jorge/build-papers-Desktop-Default/lib/sensor-integration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pi/jorge/papers/kinematics/Kinematics.cpp">
+			<Option target="kinematics"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/kinematics/Kinematics.h">
+			<Option target="kinematics"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/CanBusPort.cpp">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/CanBusPort.h">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/CiA301CommPort.cpp">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/CiA301CommPort.h">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/CiA402DeviceICanbus.cpp">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/CiA402DeviceICanbus.h">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/CiA402SetupData.cpp">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/CiA402SetupData.h">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/Cia402device.cpp">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/Cia402device.h">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/DeviceChain.cpp">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/DeviceChain.h">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/ObjectDictionary.h">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/PortBase.cpp">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/PortBase.h">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/SocketCanPort.cpp">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/SocketCanPort.h">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/TestPort.cpp">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/TestPort.h">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/candatatypes.h">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/co_msg.h">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/hico_api.h">
+			<Option target="CiA402Device"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/Block.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/Block.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/BlockDiagram.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/BlockDiagram.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/ControllerBlock.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/ControllerBlock.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/FPDBlock.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/FPDBlock.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/FPDTuner.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/FPDTuner.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/FSystemBlock.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/FSystemBlock.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/FactorSystemBlock.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/FactorSystemBlock.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/FractionalController1DOF.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/FractionalController1DOF.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/FractionalDerivative.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/FractionalDerivative.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/OnlineSystemIdentification.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/OnlineSystemIdentification.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/PIDBlock.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/PIDBlock.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/SignalSum.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/SignalSum.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/StateVariable.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/StateVariable.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/StateVariableBlock.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/StateVariableBlock.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/SystemBlock.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/SystemBlock.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/SystemBlockChain.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/SystemBlockChain.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/TimeSignal.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/TimeSignal.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/ToolsFControl.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/ToolsFControl.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/TransferFunction.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/TransferFunction.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/fcontrol.cpp">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/src/fcontrol.h">
+			<Option target="fcontrol"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/i-plot/IPlot.cpp">
+			<Option target="iplot"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/i-plot/IPlot.h">
+			<Option target="iplot"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/sensor-integration/IMURazor9DOF.cpp">
+			<Option target="SensorIntegration"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/sensor-integration/IMURazor9DOF.h">
+			<Option target="SensorIntegration"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/sensor-integration/SensorIntegration.cpp">
+			<Option target="SensorIntegration"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/sensor-integration/SensorIntegration.h">
+			<Option target="SensorIntegration"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/sensor-integration/SerialArduino.cpp">
+			<Option target="SensorIntegration"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/sensor-integration/SerialArduino.h">
+			<Option target="SensorIntegration"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/sensor-integration/SerialComm.cpp">
+			<Option target="SensorIntegration"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/sensor-integration/SerialComm.h">
+			<Option target="SensorIntegration"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/sensor-integration/attitude_estimator.cpp">
+			<Option target="SensorIntegration"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/sensor-integration/attitude_estimator.h">
+			<Option target="SensorIntegration"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/sensor-integration/imu3dmgx510.cpp">
+			<Option target="SensorIntegration"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/sensor-integration/imu3dmgx510.h">
+			<Option target="SensorIntegration"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/main/clInc20degstep.cpp">
+			<Option target="clInc20degstep"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/main/frontierstest.cpp">
+			<Option target="frontierstest"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/main/frontierstest_id.cpp">
+			<Option target="frontierstest_id"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/main/ieeeaccess-adaptive.cpp">
+			<Option target="ieeeaccess-adaptive"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/main/iros2020-identification.cpp">
+			<Option target="iros2020-identification"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/main/newpapers.cpp">
+			<Option target="newpapers"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/main/ol-pos-360.cpp">
+			<Option target="ol-pos-360"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/tools/motor_check.cpp">
+			<Option target="motor_check"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/tools/move-motor.cpp">
+			<Option target="move-motor"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/tools/sensor-response.cpp">
+			<Option target="sensor-response"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/tools/sinwaveplot.cpp">
+			<Option target="sinwaveplot"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/tools/test_sensor.cpp">
+			<Option target="test_sensor"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/tools/test_sensor_new.cpp">
+			<Option target="test_sensor_new"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/CiA402Device/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\CiA402Device\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/sensor-integration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\sensor-integration\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\fcontrol\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/fcontrol/files/phi.m_exp.csv">
+			<Option virtualFolder="CMake Files\lib\fcontrol\files\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/lib/i-plot/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\i-plot\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5SerialPort\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5SerialPort\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/arm-linux-gnueabihf/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\arm-linux-gnueabihf\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/pi/jorge/papers/../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
